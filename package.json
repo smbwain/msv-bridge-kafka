@@ -1,0 +1,25 @@
+{
+  "name": "msv-bridge-kafka",
+  "version": "0.2.0",
+  "description": "Kafka bridge for msv",
+  "main": "dist/index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Roman Ditchuk",
+  "license": "ISC",
+  "dependencies": {
+    "defer-promise": "1.0.1",
+    "no-kafka": "3.2.0",
+    "serialize-error": "2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.19",
+    "typescript": "2.4.2"
+  },
+  "peerDependencies": {
+    "msv": ">=3.0.0",
+    "msv-logger": ">=0.0.1"
+  }
+}
